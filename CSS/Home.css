@@ -1,0 +1,188 @@
+body{
+    position: relative;
+}
+body::-webkit-scrollbar{
+    display: none;
+
+}
+#heading{
+    text-align: left;
+}
+#myVideo {
+    
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+    .container{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.625);
+    color: #f1f1f1;
+    width: 95.5%;
+    height: 615px;
+    padding: 20px;
+    margin-top: -665px;
+    margin-left: 7px;
+  }  
+  .container-top{
+    margin-top: -50px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  strong{
+    color: orange;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .page-body{
+    width: 75%;
+    margin-left: 13%;
+  }
+  .container-video{
+    background: rgba(0, 0, 128, 0.688);
+  }
+  #anits-video{
+    margin-left: 10%;
+  }
+  .card{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgb(142, 127, 127);
+    color: black;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+  }
+  .card-head:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px 3px  rgba(255, 122, 6, 0.682);
+  }
+  .card-head {
+    background: rgba(255, 122, 6, 0.682);
+    width: 100px;
+    height: 100%;
+    margin-top: -.5px;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out; 
+  }
+  .card-head h3{
+    padding: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .card-body h5,p{
+   padding-left: 10px;
+  }
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .recq{
+    background: #053379ad;
+    margin-top: 2px;
+    border-radius: 5px;
+    width: 100%;
+    transition: transform 0.2s ease-in-out;
+  }
+  .recq:nth-child(even):hover{
+    transform: rotate(2deg);
+    box-shadow: 3px 3px 3px 3px  rgba(255, 122, 6, 0.682);
+  }
+  .recq:nth-child(odd):hover{
+    transform: rotate(-2deg);
+    box-shadow: 3px 3px 3px 3px  rgba(255, 122, 6, 0.682);
+  }
+  .recq h2{
+    color: orange;
+  }
+  .recq p{
+   margin-left: -1px;
+   width: 100%;
+  }
+  .info1,.info2{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
+  .visit-head{
+    background: rgb(13, 13, 81);
+    width: 100%;
+    height: 300px;
+    color: #f1f1f1;
+  }
+  .visit-body{
+    background: rgb(217, 217, 230);
+    width: 100%;
+    height: 400px;
+  }
+  .visit-head h4,h1{
+    text-align: center;
+  }
+  .visit-head h4{
+    padding-top: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+  .visit-head h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    
+  }
+  .visit-head h1:hover{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-shadow: 0 0.2em #e7793d8d,0 0 #1095c1;
+  }
+  #video{
+   margin-left: 25%;
+   margin-top: -100px;
+   border-radius: 5px;
+   transition: transform 0.2s ease-in-out; 
+  }
+  #video:hover{
+    box-shadow: 5px 5px rgb(22, 20, 20)smoke;
+    transform: scale(1.1);
+}
+.last{
+    background:  rgb(13, 13, 81);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.acadamics{
+    background: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    transition: transfrom 0.3s ease-in-out;
+}
+.acadamics:nth-child(even):hover{
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    transform: scale(1.1);
+    transform: rotate(20deg);
+    cursor: pointer;
+}
+.acadamics:nth-child(odd):hover{
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    transform: scale(1.1);
+    transform: rotate(-20deg);
+    cursor: pointer;
+}
+.acadamics h3{
+    padding-top: -1px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last .last-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/*https://www.studocu.com/in/document/delhi-technological-university/software-engineering/railway-reservation-system-project-report/26380895*/

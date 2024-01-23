@@ -1,0 +1,30 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+ol{
+    list-style: none;
+}
+.container{
+    margin-left: 10%;
+    width: 80%;
+    background: white;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 10px 10px  rgba(0, 0, 0, 0.527);
+}
+p{
+    width: 90%;
+    margin-left: 20px;
+}
+body{
+    background-color: rgb(234, 175, 26);
+}
+.inner{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+img{
+    margin-left: 30px;
+}
+.container h3{
+    color: rgb(19, 4, 152);
+}

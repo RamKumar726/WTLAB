@@ -1,0 +1,106 @@
+h2{
+    color: #021431;
+}
+h2:hover{
+    text-shadow: 0 .2rem rgb(166, 168, 172),0 0 rgb(6, 21, 56);
+}
+
+#navbar {
+    background-color: #191741;
+    position: fixed;
+    top: 0; 
+    margin-left: -7px;
+    width: 100%;
+    transition: transform 0.2s ease-in-out;
+  }
+  #navbar a {
+    margin-left: 50px;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    transform: scale(1.2);
+  }
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background: #f1b54d;
+}
+#about,#vision,#Timetable{
+    background: rgba(255, 255, 255, 0.892);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);  
+}
+.container{
+    margin-top: 50px;
+}
+fieldset{
+    width: 80%;
+    margin-left: 10%;
+}
+fieldset h3{
+    color: blueviolet;
+}
+legend strong{
+    color: blue;
+}
+#about{
+    margin-top: 50px;
+    border: 2px double rgb(39, 96, 6);
+    width: 50%;
+    margin-left: 25%;
+    height: fit-content;
+    padding-bottom: 30px;
+}
+#vision{
+    margin-top: 50px;
+    border: 2px double rgb(39, 96, 6);
+    width: 50%;
+    margin-left: 25%;
+    height: fit-content;
+    padding-bottom: 30px;
+
+}
+#Timetable{
+    margin-top: 50px;
+    border: 2px double rgb(39, 96, 6);
+    width: 50%;
+    margin-left: 25%;
+    height: fit-content;
+}
+
+.placements fieldset{
+    border: none;
+}
+img{
+    width: 60%;
+    height: 80%;
+    margin-left: 210px;
+    transition: transfrom 0.2s ease-in-out;
+}
+img:hover{
+    box-shadow: 2px 2px 2px 2px rgb(189, 223, 221);
+}
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+table,td{
+    border: none;
+}
+th{
+    background: #bc8585;
+}
+tr{
+    transition: transform 0.2s ease-in-out;
+}
+tr:hover{
+    transform: scale(1.02);
+    box-shadow: 2px 2px 2px 2px #D6EEEE;
+}

@@ -1,0 +1,6 @@
+body{
+    background: #dde2ea9b;
+}
+body::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,106 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    gap: 0.1%;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+.colors{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+    gap: 0.5%;
+    margin-left: 0.2%;
+    margin-top: 20px;
+}
+.colors img {
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+}
+.colors p{
+    color:white;
+}
+.green,.orange,.blue{
+    width: 32%;
+    height: 100px;
+}
+.green{
+    background: rgba(0, 128, 0, 0.842);
+}
+
+.orange{
+    background: rgba(255, 166, 0, 0.903);
+}
+.blue{
+    background: rgba(23, 23, 85, 0.826);
+}
+.left{
+    width: 30%;
+}
+.middle{
+    background-color: aqua;
+    width: 50%;
+    
+}
+.right{
+    width: 20%;
+
+}
+.carousel img{
+    width: 100%;
+    height: 250px;
+}
+.policies{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.policies p{
+    border-bottom: 1px solid black;
+    padding: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+.policies p:hover{
+    background: rgba(22, 9, 84, 0.737);
+    transform: scale(1.05);
+    color: azure;
+}
+.cards{
+    margin-top: 20px;
+    background-color: white;
+    width: 95%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px  rgb(147, 142, 142);
+    margin-left: 2.5%;
+}
+.card p{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.reg{
+    background: rgb(211, 36, 36);
+    width: 95%;
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-top: 20px;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+}
+.reg:hover{
+    box-shadow: 2px 2px 2px 2px rgb(197, 77, 77);
+    transform: scale(1.01);
+}

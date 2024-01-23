@@ -1,0 +1,205 @@
+.dark{
+    background: #000;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    background: rgba(255, 0, 0, 0.699);
+}
+
+.size,.color{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+
+}
+.color{
+    margin-top: 6px;
+}
+#color{
+    margin-top: -1px;
+}
+
+.box{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    margin-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+}
+.box:hover{
+    background-color: rgb(184, 233, 86);
+    transform: scale(1.1);
+    outline: none;
+    border: none;
+}
+.theme-body{
+    height: fit-content;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    background: #e3dbdb;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.659);
+}
+.theme-body h1{
+    margin: 20px;
+    padding: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card{
+    margin-left: 40%;
+    height: fit-content;
+    padding-bottom: 10px;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    gap: -2%;
+    margin-top: -50px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+.card-body #brand{
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 100px;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#btn1,#btn2,#btn3,#btn4{
+    color: black;
+}
+button:active{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.705);
+    transform: translateY(10px);
+}
+#btn1{
+    background: rgb(115, 191, 113);
+}
+#btn2{
+    background: rgb(102, 134, 180);
+}
+#btn3{
+    background: rgb(214, 171, 79);
+}
+#btn4{
+    background: #ccc;
+}
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    outline: none;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+button:hover{
+    box-shadow: 3px 3px 3px rgba(96, 87, 87, 0.501);
+}
+.animi{
+    position: relative;
+    animation: mymove 2s;
+    animation-timing-function:ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px; }
+  }
+  .card-head img,.prod-desc{
+    transition: 0.5s;
+  }
+.card-head img:hover{
+    transform: rotate(30deg) scale(1.4) translateZ(-20px);
+    filter:drop-shadow(1rem 1rem 2rem rgba(66, 63, 63, 0.77));
+}
+.prod-desc:hover{
+    transform: scale(1.1);
+}
+input[type='radio']{
+    width: 20px;
+   height: 20px;
+   margin-top: 15px;
+   border: 2px white;
+}
+#red,#blue,#black,#grey{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+button:hover{
+    cursor: pointer;
+}
+#red{
+   background: red;
+   
+}
+#grey{
+    background: rgb(152, 163, 156);
+}
+#blue{
+    background: rgb(28, 28, 192);
+}
+#black{
+    background:  black;
+}
+
+#buy{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    margin-left: 70px;
+    background: whitesmoke;
+    color: #000000;
+}
+#buy:active{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.705);
+    transform: translateY(10px);
+    background: #a6e36c;
+}
+.prod-desc{
+    margin-top: 100px;
+    background: rgba(255, 255, 255, 0.519);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.436);
+    width: 75%;
+    height: fit-content;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    margin-top: -30px;
+    overflow: scroll;
+}
+.prod-desc::-webkit-scrollbar{
+    display: none;
+}
+.product-body{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    margin-left: 10px;
+}
+.left,.right{
+    width: 100%;
+}
+#product-desc{
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+/*https://youtu.be/LXxbaRbnEv0?si=IfTvEJ2Bhi7wL8Y0
+    https://www.researchgate.net/publication/317696446_Crop_recommendation_system_for_precision_agriculture
+*/
